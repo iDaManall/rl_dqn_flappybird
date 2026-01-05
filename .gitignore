@@ -1,0 +1,35 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual envs / Conda env folders
+.env
+.venv/
+venv/
+env/
+envs/
+miniforge3/
+miniconda3/
+conda-env/
+
+# macOS
+.DS_Store
+
+# Logs, checkpoints, models, tensorboard
+logs/
+logs/*
+*.zip
+*.ckpt
+tensorboard_data/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Other
+*.sqlite3
+*.db
